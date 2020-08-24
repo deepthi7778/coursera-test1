@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>media quries</title>
+	<style>
+		h1{
+			margin-top: 10px;
+		}
+		p{
+			margin-right: 10px;
+			padding: 5px;
+			border:1px solid black;
+		}
+		#p1{
+			background-color: #33ff57;
+			width:100px;
+			height:100px;
+		}
+		#p2{
+			background-color: #ff5733;
+			width:50px;
+			height:50px;
+		}
+		@media (min-width:1120px){
+			#p1{
+				width: 80%;
+			}
+			#p2{
+				width: 150px;
+				height:150px;
+			}
+		}
+		@media screen and  (min-width:1000px) and (max-width:1119px){
+			#p1{
+				width: 60%;
+			}
+			#p2{
+				width: 100px;
+				height:100px;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>MEDIA QUERIES</h1>
+	<p id="p1"></p>
+	<p id="p2"></p>
+
+
+</body>
+</html>
